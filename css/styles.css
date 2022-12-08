@@ -699,9 +699,10 @@ form {
   line-height: calc(20 / 16);
   cursor: pointer;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  transition: filter 250ms var(--timing-function);
-  background-color: var(--fon-hero-color);
+  border-radius: 4px;
+  background-color: var(--secondary-background-color);
   color: rgba(255, 255, 255, 0.6);
+  transition: filter 250ms var(--timing-function);
 }
 
 .send-email:focus,
